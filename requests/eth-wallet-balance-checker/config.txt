@@ -1,0 +1,9 @@
+INFURA API KEY - may not need if using etherscan api methods
+ETHERSCAN API KEY
+COINMARKETCAP API KEY
+
+ETH_ADDRESSES_TO_CHECK = ARRAY
+[
+address1,
+address2
+]

@@ -1,0 +1,1 @@
+uses etherscan api to check the eth / token balances and USD value / ETH value and prints out the individual wallet balance / fiat / spot data + the combined wallets in a pretty / simple format
