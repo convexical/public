@@ -1,1 +1,28 @@
-uses etherscan api to check the eth / token balances and USD value / ETH value and prints out the individual wallet balance / fiat / spot data + the combined wallets in a pretty / simple format
+uses etherscan api to check the eth / token balances and USD value / ETH value and prints out the individual wallet balance (eth, tokens) / fiat / spot data + the combined wallets (with the same info) in a pretty / simple format
+
+----
+
+Example output
+
+Address: 0x0000000000a0as0f0asf0asdfjfjsdfkasjd
+ETH Balance: 1 ETH - $4,000.00
+Tokens:
+	1INCH	100 $100.00
+
+Address: 0x0000000000a0as0f0asf0asasdfdsaf99999
+ETH Balance: 1 ETH - $4,000.00
+Tokens:
+	DYDX	100 $100.00
+	1INCH	2	$2.00
+
+Combined:
+ETH: 2 ETH - $8,000.00
+Tokens:
+	1INCH	102 $102.00
+	DYDX	100 $100.00
+
+Totals:
+ETH USD Value: $8,000.00
+Token USD Value: $202.00
+Total USD Value: $8,202.00
+
